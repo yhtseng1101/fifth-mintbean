@@ -1,0 +1,202 @@
+
+#line1 {
+    position: relative;
+}
+
+#line2 {
+    position: absolute;
+    top: 0;
+    left: 1400px;
+}
+
+#middleLine1 {
+    position: absolute;
+    top: 0;
+    left: 1000px;
+}
+
+#middleLine2 {
+    position: absolute;
+    top: 0;
+    left: 1320px;
+}
+
+
+#person1 {
+    height: 30%;
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    z-index: 2;
+}
+
+
+#person3 {
+    height: 30%;
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+    z-index: 2;
+}
+
+#person5 {
+    height: 25%;
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+    z-index: 2;
+}
+
+
+
+
+/* location 3 */
+#person2 {
+    height: 15%;
+    position: absolute;
+    bottom: 68%;
+    left: 1102px;
+    z-index: 2;
+}
+
+
+#person4 {
+    height: 30%;
+    position: absolute;
+    bottom: 13%;
+    left: 100%;
+    z-index: 2;
+}
+
+
+#person6 {
+    height: 30%;
+    position: absolute;
+    bottom: 6%;
+    left: 75%;
+    z-index: 2;
+}
+
+
+#person7 {
+    height: 30%;
+    position: absolute;
+    bottom: 6%;
+    left: 68%;
+    z-index: 2;
+}
+
+
+#photo1 {
+    height: 380px;
+    width: 380px;
+    margin-left: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#photo1-div {
+    background-color: brown;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    border-radius: 5px;
+}
+
+#photo2 {
+    height: 330px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#photo2-div {
+    background-color: blue;
+    height: 350px;
+    width: 420px;
+    position: absolute;
+    top: 200px;
+    left: 560px;
+    border-radius: 5px;
+}
+
+#photo3 {
+    height: 180px;
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#photo3-div {
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 1102px;
+    border-radius: 5px;
+    transform: rotateX(15deg);
+}
+
+
+#photo4 {
+    height: 330px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#photo4-div {
+    background-color: gray;
+    height: 350px;
+    width: 420px;
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    border-radius: 5px;
+}
+
+#photo5 {
+    height: 180px;
+    width: 230px;
+    margin-left: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#photo5-div {
+    background-color: rgb(50, 205, 205);
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    left: 2000px;
+    border-radius: 5px;
+}
+
+#photo6 {
+    height: 330px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+#photo6-div {
+    background-color: rgb(205, 50, 166);
+    height: 350px;
+    width: 420px;
+    position: absolute;
+    top: 200px;
+    left: 2345px;
+    border-radius: 5px;
+}
+
+
+
+
