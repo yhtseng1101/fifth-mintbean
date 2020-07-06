@@ -1,4 +1,3 @@
-require('dotenv').config();
 
 function getHeight() {
     var w = window.innerWidth;
@@ -12,7 +11,7 @@ getHeight();
 let url = [];
 
 
-const ACCESS_KEY = process.env.ACCESS_KEY;
+// const ACCESS_KEY = process.env.ACCESS_KEY;
 
 fetch(`https://api.unsplash.com/photos/random?query=painting&count=6&client_id=i_aQLms0SMfh9pUAJLdDJP5uQIJzKCmuWmNy1qNY27w`)
 .then(res => res.json())
