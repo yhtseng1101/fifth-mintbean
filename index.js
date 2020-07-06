@@ -14,7 +14,7 @@ let url = [];
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 
-fetch(`https://api.unsplash.com/photos/random?query=painting&count=6&client_id=${ACCESS_KEY}`)
+fetch(`https://api.unsplash.com/photos/random?query=painting&count=6&client_id=i_aQLms0SMfh9pUAJLdDJP5uQIJzKCmuWmNy1qNY27w`)
 .then(res => res.json())
 .then((data) => {
     console.log(data);
