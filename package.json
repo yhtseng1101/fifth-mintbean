@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/yhtseng1101/fifth-mintbean/issues"
   },
-  "homepage": "https://github.com/yhtseng1101/fifth-mintbean#readme",
-  "dependencies": {
-    "dotenv": "^8.2.0"
-  }
+  "homepage": "https://github.com/yhtseng1101/fifth-mintbean#readme"
 }
