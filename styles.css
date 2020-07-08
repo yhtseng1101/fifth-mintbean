@@ -1,25 +1,85 @@
+.hide {
+    display: none;
+}
+
+.loader {
+    position: relative;
+    margin: auto;
+    align-self: center;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.button {
+    background-color: #383e56;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+}
+
+.input {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
 
 #line1 {
     top: 0;
     position: absolute;
+    z-index: -1;
 }
 
 #line2 {
     position: absolute;
     top: 0;
     left: 1400px;
+    z-index: -1;
 }
 
 #middleLine1 {
     position: absolute;
     top: 0;
     left: 1006px;
+    z-index: -1;
 }
 
 #middleLine2 {
     position: absolute;
     top: 0;
     left: 1320px;
+    z-index: -1;
 }
 
 
@@ -101,6 +161,7 @@
     top: 180px;
     left: 100px;
     border-radius: 5px;
+    display: flex;
 }
 
 #photo2 {
@@ -119,6 +180,7 @@
     top: 200px;
     left: 560px;
     border-radius: 5px;
+    display: flex;
 }
 
 #photo3 {
@@ -138,6 +200,7 @@
     left: 1102px;
     border-radius: 5px;
     transform: rotateX(15deg);
+    display: flex;
 }
 
 
@@ -157,6 +220,7 @@
     top: 200px;
     left: 1500px;
     border-radius: 5px;
+    display: flex;
 }
 
 #photo5 {
@@ -175,6 +239,7 @@
     top: 250px;
     left: 2000px;
     border-radius: 5px;
+    display: flex;
 }
 
 #photo6 {
@@ -193,6 +258,7 @@
     top: 200px;
     left: 2345px;
     border-radius: 5px;
+    display: flex;
 }
 
 
